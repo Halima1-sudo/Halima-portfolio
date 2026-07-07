@@ -19,20 +19,24 @@ Rhazy Collection.
 12. contact.html — Contact
 13. thankyou.html — Thank you page
 
+## File structure
+All files sit at the same level (no subfolders) — this matches how they were
+uploaded to GitHub. `index.html` links to `style.css` and each `.svg` directly.
+
 ## Replacing the placeholder images
 No real photos were provided yet, so the site currently uses hand-made SVG
 placeholders so nothing looks broken. Swap them out with real files any time:
 
-| Placeholder file (in `assets/images/`) | Replace with |
+| Placeholder file | Replace with |
 |---|---|
 | `portrait-placeholder.svg` | Your real photo (used on Home and About) |
 | `certificate-placeholder.svg` | Your saved freeCodeCamp certificate PNG |
 | `fashion-1.svg`, `fashion-2.svg`, `fashion-3.svg` | Rhazy Collection fashion photos |
 | `skincare-1.svg`, `skincare-2.svg`, `skincare-3.svg` | Rhazy Collection skin care photos |
 
-To replace an image: save your new file into `assets/images/` (any name you
-like), then open the relevant `.html` file and update the matching `src="..."`
-in the `<img>` tag to point to your new filename.
+To replace an image: upload your new file (any name you like) into the repo,
+then open the relevant `.html` file on GitHub and update the matching
+`src="..."` in the `<img>` tag to point to your new filename.
 
 ## Running it locally
 This is a plain static site — no build step. Just open `index.html` in a

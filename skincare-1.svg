@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#E3ECF9"/>
+  <rect x="160" y="90" width="80" height="130" rx="10" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="2.5"/>
+  <rect x="180" y="70" width="40" height="26" rx="6" fill="#0B1F3A"/>
+  <line x1="160" y1="140" x2="240" y2="140" stroke="#DCE6F5" stroke-width="2"/>
+  <text x="200" y="180" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" letter-spacing="1.5" fill="#1D4ED8">HALAL</text>
+  <g stroke="#1D4ED8" stroke-width="1.6" fill="none" opacity="0.5">
+    <path d="M120 250 C 140 230, 160 230, 170 250"/>
+    <path d="M230 250 C 240 230, 260 230, 280 250"/>
+  </g>
+  <text x="200" y="265" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" letter-spacing="2" fill="#5A6B85">SKIN CARE JAR</text>
+</svg>
