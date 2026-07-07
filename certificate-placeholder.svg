@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" width="640" height="460">
+  <rect width="640" height="460" fill="#FFFFFF"/>
+  <rect x="14" y="14" width="612" height="432" fill="none" stroke="#1D4ED8" stroke-width="2"/>
+  <rect x="26" y="26" width="588" height="408" fill="none" stroke="#DCE6F5" stroke-width="1"/>
+
+  <g stroke="#5B9BD5" stroke-width="2" fill="none" opacity="0.7">
+    <path d="M50 50 H130" stroke-dasharray="8 7"/>
+    <path d="M50 50 V90" stroke-dasharray="8 7"/>
+  </g>
+  <circle cx="50" cy="50" r="4" fill="#1D4ED8"/>
+
+  <text x="320" y="120" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="13" letter-spacing="3" fill="#1D4ED8">CERTIFICATE OF COMPLETION</text>
+
+  <text x="320" y="185" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="34" fill="#0B1F3A">Responsive Web Design</text>
+
+  <line x1="220" y1="210" x2="420" y2="210" stroke="#DCE6F5" stroke-width="1"/>
+
+  <text x="320" y="250" text-anchor="middle" font-family="Manrope, sans-serif" font-size="15" fill="#5A6B85">awarded to</text>
+  <text x="320" y="285" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#0B1F3A">Halima Yusuf Sani</text>
+
+  <text x="320" y="325" text-anchor="middle" font-family="Manrope, sans-serif" font-size="14" fill="#5A6B85">freeCodeCamp</text>
+
+  <g stroke="#1D4ED8" stroke-width="2" fill="none">
+    <circle cx="320" cy="380" r="26"/>
+    <circle cx="320" cy="380" r="19"/>
+  </g>
+  <text x="320" y="386" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="#1D4ED8">FCC</text>
+
+  <text x="590" y="440" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="10" letter-spacing="1" fill="#5A6B85">REPLACE WITH YOUR SAVED PNG</text>
+</svg>

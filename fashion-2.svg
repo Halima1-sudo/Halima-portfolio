@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#E3ECF9"/>
+  <path d="M200 20 C 140 60, 130 140, 200 160 C 270 140, 260 60, 200 20 Z" fill="#0B1F3A"/>
+  <path d="M110 160 C 110 240, 150 290, 200 290 C 250 290, 290 240, 290 160 C 250 190, 150 190, 110 160 Z" fill="#1D4ED8" opacity="0.9"/>
+  <g stroke="#F2F6FC" stroke-width="2" opacity="0.4">
+    <path d="M160 200 C 175 240, 175 260, 165 285"/>
+    <path d="M240 200 C 225 240, 225 260, 235 285"/>
+  </g>
+  <text x="200" y="270" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" letter-spacing="2" fill="#5A6B85">FLOWING SILHOUETTE</text>
+</svg>

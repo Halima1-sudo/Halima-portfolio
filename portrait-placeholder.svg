@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600" width="480" height="600">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F2F6FC"/>
+      <stop offset="1" stop-color="#E3ECF9"/>
+    </linearGradient>
+    <linearGradient id="figGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1D4ED8"/>
+      <stop offset="1" stop-color="#0B1F3A"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="600" fill="url(#bgGrad)"/>
+
+  <!-- stitch trace framing -->
+  <g stroke="#5B9BD5" stroke-width="2" fill="none" opacity="0.55">
+    <path d="M30 30 H150" stroke-dasharray="10 8"/>
+    <path d="M30 30 V150" stroke-dasharray="10 8"/>
+    <path d="M450 570 H330" stroke-dasharray="10 8"/>
+    <path d="M450 570 V450" stroke-dasharray="10 8"/>
+  </g>
+  <circle cx="30" cy="30" r="4" fill="#1D4ED8"/>
+  <circle cx="450" cy="570" r="4" fill="#1D4ED8"/>
+
+  <!-- veil / hijab silhouette -->
+  <path d="M240 120
+           C 150 120, 118 210, 128 300
+           C 134 360, 150 420, 175 470
+           L 175 560
+           C 175 575, 195 585, 240 585
+           C 285 585, 305 575, 305 560
+           L 305 470
+           C 330 420, 346 360, 352 300
+           C 362 210, 330 120, 240 120 Z"
+        fill="url(#figGrad)" opacity="0.92"/>
+
+  <!-- face oval -->
+  <ellipse cx="240" cy="255" rx="58" ry="72" fill="#F2F6FC" opacity="0.95"/>
+
+  <!-- drape fold lines (fashion motif) -->
+  <g stroke="#F2F6FC" stroke-width="2.5" fill="none" opacity="0.35">
+    <path d="M180 340 C 210 400, 210 460, 190 555"/>
+    <path d="M300 340 C 270 400, 270 460, 290 555"/>
+    <path d="M240 345 C 240 420, 240 490, 240 560"/>
+  </g>
+
+  <!-- small circuit-node accents near collar (engineering motif) -->
+  <g fill="#5B9BD5">
+    <circle cx="205" cy="470" r="3.5"/>
+    <circle cx="240" cy="482" r="3.5"/>
+    <circle cx="275" cy="470" r="3.5"/>
+  </g>
+  <g stroke="#5B9BD5" stroke-width="1.5">
+    <line x1="205" y1="470" x2="240" y2="482"/>
+    <line x1="240" y1="482" x2="275" y2="470"/>
+  </g>
+
+  <text x="240" y="560" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" fill="#F2F6FC" opacity="0.8">H . Y . S</text>
+</svg>

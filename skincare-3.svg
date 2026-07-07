@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#E3ECF9"/>
+  <circle cx="150" cy="150" r="52" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="2.5"/>
+  <circle cx="150" cy="150" r="30" fill="none" stroke="#1D4ED8" stroke-width="1.5" stroke-dasharray="3 5"/>
+  <rect x="240" y="105" width="60" height="90" rx="8" fill="#0B1F3A"/>
+  <rect x="255" y="95" width="30" height="18" rx="4" fill="#1D4ED8"/>
+  <text x="200" y="250" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" letter-spacing="2" fill="#5A6B85">CLEAN ROUTINE, DAY &amp; NIGHT</text>
+</svg>
