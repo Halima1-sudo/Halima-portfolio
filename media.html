@@ -14,7 +14,13 @@
     background: var(--ink);
     display: block;
   }
-  video { aspect-ratio: 16/9; object-fit: cover; }
+  video {
+    aspect-ratio: 9/16;
+    max-width: 380px;
+    max-height: 70vh;
+    object-fit: cover;
+    margin: 0 auto;
+  }
   .yt-card {
     display: block;
     position: relative;
@@ -97,6 +103,7 @@
             <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
           </audio>
+          
         </div>
 
         <div class="card media-block">
@@ -106,6 +113,7 @@
             <source src="my-video.mp4" type="video/mp4">
             Your browser does not support the video element.
           </video>
+          
         </div>
 
       </div>
