@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Media — Halima Yusuf Sani</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<style>
+  .media-block { margin-bottom: 20px; }
+  audio, video {
+    width: 100%;
+    border-radius: var(--radius);
+    background: var(--ink);
+    display: block;
+  }
+  video { aspect-ratio: 16/9; object-fit: cover; }
+  .yt-card {
+    display: block;
+    position: relative;
+    border-radius: var(--radius);
+    overflow: hidden;
+    border: 1px solid var(--line);
+    background: var(--ink);
+  }
+  .yt-card img { width: 100%; display: block; aspect-ratio: 16/9; object-fit: cover; opacity: 0.85; }
+  .yt-play {
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 68px; height: 68px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.94);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .yt-play::after {
+    content: '';
+    border-style: solid;
+    border-width: 12px 0 12px 20px;
+    border-color: transparent transparent transparent #1D4ED8;
+    margin-left: 4px;
+  }
+  .yt-label {
+    position: absolute; bottom: 0; left: 0; right: 0;
+    padding: 14px 18px;
+    background: linear-gradient(to top, rgba(11,31,58,0.9), transparent);
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #fff;
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-row">
+    <a href="index.html" class="wordmark">Halima <span>Yusuf Sani</span></a>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-btn" aria-label="Open menu"><span></span></label>
+    <nav class="primary-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="certificates.html">Certificates</a></li>
+        <li><a href="business.html">Rhazy Collection</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="interests.html">Interests</a></li>
+        <li><a href="media.html" class="active">Media</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-intro">
+    <div class="wrap">
+      <span class="eyebrow">Media</span>
+      <h1>Audio, video &amp; a watch link</h1>
+      <div class="stitch-divider"></div>
+    </div>
+  </section>
+
+  <section class="tight">
+    <div class="wrap">
+
+      <div class="grid grid-2">
+
+        <div class="card media-block">
+          <h3>Audio</h3>
+          <p class="cert-meta">Instrumental track sample</p>
+          <audio controls preload="none">
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+          <p style="margin-top:14px; margin-bottom:0; color:var(--slate);">
+            This is a placeholder track. To use your own, upload an mp3 file to the repo
+            and change the <code>src</code> above to its filename.
+          </p>
+        </div>
+
+        <div class="card media-block">
+          <h3>Short Video</h3>
+          <p class="cert-meta">Play, pause &amp; mute enabled</p>
+          <video controls preload="metadata">
+            <source src="my-video.mp4" type="video/mp4">
+            Your browser does not support the video element.
+          </video>
+          <p style="margin-top:14px; margin-bottom:0; color:var(--slate);">
+            Upload your video file to the repo and name it <code>my-video.mp4</code>
+            (or update the <code>src</code> above to match your filename).
+          </p>
+        </div>
+
+      </div>
+
+      <div class="card media-block" style="margin-top:26px;">
+        <h3>Watch on YouTube</h3>
+        <p class="cert-meta">Opens in a new tab</p>
+        <a class="yt-card" href="https://www.youtube.com/watch?v=ShnvgBUxcug" target="_blank" rel="noopener">
+          <img src="https://img.youtube.com/vi/ShnvgBUxcug/hqdefault.jpg" alt="Responsive Web Design walkthrough video thumbnail — click to watch on YouTube">
+          <span class="yt-play"></span>
+          <span class="yt-label">Responsive Web Design Walkthrough — YouTube</span>
+        </a>
+        <p style="margin-top:14px; margin-bottom:0; color:var(--slate);">
+          A walkthrough related to the Responsive Web Design certification. Tap the
+          thumbnail to watch it on YouTube.
+        </p>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="wordmark">Halima Yusuf Sani</a>
+        <p style="color:#8FA5C6; max-width:36ch; margin-top:10px;">Software Engineering student &amp; Founder of Rhazy Collection. Kano, Nigeria.</p>
+      </div>
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="certificates.html">Certificates</a></li>
+          <li><a href="business.html">Rhazy Collection</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="media.html">Media</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Halima Yusuf Sani. All rights reserved.</span>
+      <span>Built with HTML &amp; CSS</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
